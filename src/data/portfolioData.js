@@ -6,7 +6,8 @@ export const portfolioData=[
         description:"This application is a shared shopping list platform developed with a Java Spring Boot backend and a React Native frontend targeting Android devices. It enables multiple users to collaboratively manage a shopping list in real time. Real-time synchronization is achieved via WebSockets, allowing all changes to be immediately reflected across all connected users.Data is persistently stored using MySQL and managed via JPA (Java Persistence API). The application features secure user authentication and login, ensuring that only authorized users can access and modify shopping lists. Security best practices such as password hashing and token-based authentication (e.g., JWT) are implemented to protect user data and communication.",
         headerImages:[],
         images: [],
-        technologies: ["Java Spring Boot", "React Native", "MySQL","Hibernate", "Websockets","Java"]
+        technologies: ["Java Spring Boot", "React Native", "MySQL","Hibernate", "Websockets","Java"],
+        page:"/groceriesApp"
 
     },
     {
@@ -16,7 +17,8 @@ export const portfolioData=[
         decription: " ",
          headerImages:[],
         images: [],
-        technologies: ["React"]
+        technologies: ["React"],
+        page:"/groceriesApp"
     },
     {
         id:3,
@@ -25,7 +27,8 @@ export const portfolioData=[
         decription: " ",
          headerImages:[],
         images: [],
-        technologies: ["React"]
+        technologies: ["React"],
+        page:"/groceriesApp"
     },
     {
         id:4,
@@ -34,7 +37,8 @@ export const portfolioData=[
         decription: " ",
          headerImages:[],
         images: [],
-        technologies: ["React"]
+        technologies: ["React"],
+        page:"/groceriesApp"
     }
 ]
 

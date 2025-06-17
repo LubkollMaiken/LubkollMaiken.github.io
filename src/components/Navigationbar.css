@@ -2,7 +2,7 @@
   display: inline-block;
   border: 1px solid #5a5a5a;
   padding: 0px 6px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .nav-link.selected {
   color: var(--fontColor)

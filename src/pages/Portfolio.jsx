@@ -11,7 +11,7 @@ export default function Portfolio() {
         <div class="row row-cols-2">
           {portfolioData.map((data, index) => (
             <div class="col">
-              <Card title={data.title} description={data.shortDescription}></Card>
+              <Card title={data.title} description={data.shortDescription} page={data.page}></Card>
             </div>
           ))}
         </div>
