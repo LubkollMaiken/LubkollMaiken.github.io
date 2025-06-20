@@ -1,8 +1,8 @@
-import React from 'react'
 import Layout from '../components/Layout'
 import { portfolioData } from '../data/portfolioData'
 import Card from '../components/Card'
 import Hero from '../components/Hero'
+
 export default function Portfolio() {
   return (
     <Layout>

@@ -10,7 +10,7 @@ export default function Card({title,description,page}) {
                 <div class="card-body text-start">
                     <p class="card-text economica-regular fs-3 ">{title}</p>
                     <p class="card-text lato-regular  ">{description}</p>
-                    <Link to={page}class="btn btn-outline-secondary">View project</Link>
+                    <Link to='/portfolio/groceriesApp'class="btn btn-outline-secondary">View project</Link>
                 </div>
         </div>
     )
